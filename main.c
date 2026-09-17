@@ -1,15 +1,17 @@
 #include <stdio.h>
 
-int main(void)
-{
-    char c;
-    int i;
+int main(void) {
+    int a, b;
+    //int c1;
 
-    printf("input a number ;");
-    scanf("%c", &c);
+    printf("input a character ;");
+    scanf("%d", &a);
 
-    i = c - '0';
-    printf("The input number is %i\n", i);
+    printf("input a number :");
+    scanf("%d", &b);
+
+    //c1 = c +1;
+    printf("Diving result is %f\n", a/b);
 
     return 0;
 }
